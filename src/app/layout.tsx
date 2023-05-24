@@ -25,11 +25,11 @@ export default function RootLayout({
           integrity="sha384-KK94CHFLLe+nY2dmCWGMq91rCGa5gtU4mk92HdvYe+M/SXH301p5ILy+dN9+nJOZ"
           crossOrigin="anonymous"
         />
+        <meta
+          name="viewport"
+          content="width=device-width, initial-scale=1"
+        ></meta>
       </head>
-      <meta
-        name="viewport"
-        content="width=device-width, initial-scale=1"
-      ></meta>
       <body className={roboto.className}>
         {children}
         <script
