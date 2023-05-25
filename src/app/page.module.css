@@ -6,7 +6,7 @@
   padding: 6rem;
   min-height: 100vh;
 }
-.main div {
+.main .sidebar {
   grid-area: navbar;
   width: 300px;
   min-height: auto;
