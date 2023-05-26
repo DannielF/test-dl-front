@@ -1,0 +1,19 @@
+.main {
+    display: grid;
+    grid-template-columns: minmax(200px, 300px) 1fr;
+    grid-template-rows: 1fr;
+    grid-template-areas: "navbar main";
+    padding: 6rem;
+    min-height: 100vh;
+  }
+  .main .sidebar {
+    grid-area: navbar;
+    width: 200px;
+    min-height: auto;
+  }
+
+  .main .table-user--list {
+    grid-area: main;
+    width: 100%;
+    min-height: auto;
+  }
