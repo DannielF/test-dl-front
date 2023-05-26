@@ -1,9 +1,13 @@
 import ListMolecule from '../../molecules/list/list.molecule';
 
 export default function UlOrganism() {
+  const userPath = 'user';
   return (
     <ul className="nav nav-pills flex-column mb-auto mt-4 list-group list-group-flush">
-      <ListMolecule anchorName="List user" routerPath="list-users" />
+      <ListMolecule
+        anchorName="List user"
+        routerPath={`${userPath}/list-users`}
+      />
       <ListMolecule anchorName="Get by id" routerPath="get-one" />
       <ListMolecule anchorName="Get by document" routerPath="get-document" />
       <ListMolecule anchorName="Get by email" routerPath="get-email" />
